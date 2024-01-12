@@ -9,7 +9,7 @@ class ImageInput extends StatefulWidget {
 }
 
 class _ImageInputState extends State<ImageInput> {
-  // var File
+  // Another useless comment for the heck of it!
   void _takePicture() async {
     //final imagePicker = ImagePicker();
     final pickedImage = await ImagePicker()
