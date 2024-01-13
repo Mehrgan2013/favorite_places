@@ -7,11 +7,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class PlacesScreen extends ConsumerWidget {
   PlacesScreen({super.key});
-  final List<Place> places = [
-    Place(title: 'Sydney'),
-    Place(title: 'Berlin'),
-    Place(title: 'Cairo'),
-  ];
+  // final List<Place> places = [
+  //   Place(title: 'Sydney'),
+  //   Place(title: 'Berlin'),
+  //   Place(title: 'Cairo'),
+  // ];
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -23,8 +23,8 @@ class PlacesScreen extends ConsumerWidget {
         actions: [
           IconButton(
               onPressed: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (ctx) => AddPlaceScreen()));
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (ctx) => const AddPlaceScreen()));
               },
               icon: const Icon(Icons.add)),
         ],
