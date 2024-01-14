@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:favorite_places/pviders/user_Places.dart';
-import 'package:favorite_places/screens/add_location.dart';
+import 'package:favorite_places/widgets/location_input.dart';
 import 'package:favorite_places/widgets/image_input.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
