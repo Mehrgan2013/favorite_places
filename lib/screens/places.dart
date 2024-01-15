@@ -1,4 +1,4 @@
-import 'package:favorite_places/models/place.dart';
+//import 'package:favorite_places/models/place.dart';
 import 'package:favorite_places/pviders/user_Places.dart';
 import 'package:favorite_places/screens/add_place.dart';
 import 'package:favorite_places/widgets/places_list.dart';
