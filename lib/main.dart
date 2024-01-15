@@ -23,14 +23,14 @@ final colorScheme = ColorScheme.fromSeed(
 //     titleLarge: GoogleFonts.ubuntuCondensed(
 //       fontWeight: FontWeight.bold,
 //     ),
-//   ),
+//   ),,,
 // );
 
 final theme = ThemeData(
 //final theme = ThemeData.material3(
   colorScheme: colorScheme,
   textTheme: GoogleFonts.ubuntuCondensedTextTheme().copyWith(
-    titleSmall:  GoogleFonts.ubuntuCondensed(
+    titleSmall: GoogleFonts.ubuntuCondensed(
       fontWeight: FontWeight.bold,
     ),
     titleMedium: GoogleFonts.ubuntuCondensed(
